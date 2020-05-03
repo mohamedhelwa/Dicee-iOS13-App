@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADAD913C22B0FDAE007B460A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAD913B22B0FDAE007B460A /* README.md */; };
 		ADB0DFFD22AFA6090030352D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0DFFC22AFA6090030352D /* AppDelegate.swift */; };
 		ADB0E00122AFA6090030352D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0E00022AFA6090030352D /* ViewController.swift */; };
 		ADB0E00422AFA6090030352D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00222AFA6090030352D /* Main.storyboard */; };
 		ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00522AFA60E0030352D /* Assets.xcassets */; };
 		ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */; };
 		ADE1FB1422B39F0200DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */; };
+		D9A02CBC243BB440008003AF /* Roll Dice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9A02CBB243BB43F008003AF /* Roll Dice.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ADAD913B22B0FDAE007B460A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB0DFF922AFA6090030352D /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0DFFC22AFA6090030352D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB0E00022AFA6090030352D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB0E00322AFA6090030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		ADB0E00822AFA60E0030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB0E00A22AFA60E0030352D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9A02CBB243BB43F008003AF /* Roll Dice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Roll Dice.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,6 @@
 		ADB0DFF022AFA6090030352D = {
 			isa = PBXGroup;
 			children = (
-				ADAD913B22B0FDAE007B460A /* README.md */,
 				ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */,
 				ADB0DFFA22AFA6090030352D /* Products */,
 			);
@@ -51,7 +50,7 @@
 		ADB0DFFA22AFA6090030352D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */,
+				ADB0DFF922AFA6090030352D /* Dicee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +63,7 @@
 				ADB0E00022AFA6090030352D /* ViewController.swift */,
 				ADB0E00222AFA6090030352D /* Main.storyboard */,
 				ADB0E00522AFA60E0030352D /* Assets.xcassets */,
+				D9A02CBB243BB43F008003AF /* Roll Dice.mp3 */,
 				ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */,
 				ADB0E00A22AFA60E0030352D /* Info.plist */,
 			);
@@ -87,7 +87,7 @@
 			);
 			name = "Dicee-iOS13";
 			productName = "Dicee-iOS13";
-			productReference = ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */;
+			productReference = ADB0DFF922AFA6090030352D /* Dicee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,8 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */,
+				D9A02CBC243BB440008003AF /* Roll Dice.mp3 in Resources */,
 				ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */,
-				ADAD913C22B0FDAE007B460A /* README.md in Resources */,
 				ADB0E00422AFA6090030352D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,13 +289,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B5KSPL96F;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.Dicee-iOS13";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed;
+				PRODUCT_NAME = Dicee;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -306,13 +308,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B5KSPL96F;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.Dicee-iOS13";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed;
+				PRODUCT_NAME = Dicee;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
